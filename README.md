@@ -1,6 +1,6 @@
 # Harp, Gulp And BrowserSync
 
-A ready-to-go Website development platform with Gulp and Harp set up that does auto css injection via BrowserSync.
+A ready-to-go Website development platform with Gulp and Harp set up that does css auto-injection via BrowserSync.
 
 You can set it via Harp with:
 
