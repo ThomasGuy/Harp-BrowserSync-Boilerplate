@@ -1,5 +1,6 @@
 {
   "index": {
-      "pageTitle": "Home"
+      "pageTitle"  : "Home",
+      "description": "Site landing oage"
     }
 }

@@ -1,36 +1,24 @@
+/**************************
+   ***   BREAKPOINTS   ***
+ **************************/
 
-//*** Media queeries small and up ***/
-=mq-small-up
-  @media screen and (min-width: $screen-small)
-    @content
+=breakpoint($point)
+  @if $point == desktop
+    @media (min-width: 70em)
+      @content
 
-=mq-small-down
-  @media screen and (max-width: $screen-small)
-    @content
+  @else if $point == laptop
+    @media (min-width: 64em)
+      @content
 
-//*****     Media querie 'Break-point' only    ***/
-=mq-small
-  @media screen and (min-width: $screen-small) and (max-width: $screen-medium – 1px)
-    @content
+  @else if $point == tablet
+    @media (min-width: 50em)
+      @content
 
-=mq-medium-up
-  @media screen and (min-width: $screen-medium)
-    @content
+  @else if $point == phablet
+    @media (min-width: 37.5em)
+      @content
 
-=mq-medium-down
-  @media screen and (max-width: $screen-medium)
-    @content
-
-//***  break-point only  ***/
-=mq-medium
-  @media screen and (min-width: $screen-medium) and (max-width: $screen-large – 1px)
-    @content
-
-// Large breakpoint and up
-=mq-large-up
-  @media screen and (min-width: $screen-large)
-    @content
-
-=mq-large-down
-  @media screen and (max-width: $screen-large)
-    @content
+  @else if $point == mobileonly
+    @media (max-width: 37.5em)
+      @content
