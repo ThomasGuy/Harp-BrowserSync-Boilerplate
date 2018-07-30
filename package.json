@@ -7,10 +7,9 @@
   "author": "Thomas Guy",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "coffeescript": "^2.0.1",
+    "browser-sync": "^2.24.6",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "harp": "^0.24.1"
+    "gulp-autoprefixer": "^4.1.0",
+    "harp": "^0.27.0"
   }
 }
