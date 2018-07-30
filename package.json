@@ -9,7 +9,9 @@
   "devDependencies": {
     "browser-sync": "^2.24.6",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.1.0",
+    "gulp-autoprefixer": "^4.1.0"
+  },
+  "dependencies": {
     "harp": "^0.27.0"
   }
 }
